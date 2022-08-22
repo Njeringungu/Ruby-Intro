@@ -1,0 +1,11 @@
+1. classes and instances
+2. Instance variables
+        local variables
+        Instance variables
+        class variables
+3. Getters and setter methods
+        macros(reader and writer)
+4. Object initialization
+5. Self
+6. Instance methods
+7. iheritance/modules
