@@ -1,0 +1,19 @@
+SELECT id FROM songs WHERE id > 2; 
+SELECT name, genre FROM songs  WHERE id > 2 ORDER BY genre DESC;
+
+
+SELECT gender, COUNT(gender) as countgender FROM artists WHERE gender= 'F' GROUP BY gender;
+SELECT MAX(id) FROM artists;
+SELECT * FROM artists ORDER BY gender DESC ;
+
+SELECT 
+artists.name AS artistsname, songs.name AS songsname
+FROM artists 
+ INNER JOIN songs
+ON artists.id = songs.artistid;
+
+SELECT 
+artists.name AS artistsname, songs.name AS songsname
+FROM artists 
+ LEFT OUTER JOIN songs
+ON artists.id = songs.artistid;
