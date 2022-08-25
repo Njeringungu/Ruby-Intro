@@ -13,3 +13,4 @@ else
   puts "Go to College"
 end
 
+## change the above code to use a case statement
