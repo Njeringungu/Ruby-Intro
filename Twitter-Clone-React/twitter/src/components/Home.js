@@ -21,12 +21,15 @@ function Home () {
                     </div>
 
                     <div className='media'>
-                        <img src="https://img.icons8.com/fluency-systems-regular/344/image.png" alt="" />
-                        <img src="https://img.icons8.com/ios-glyphs/2x/attach-gif.png" alt="" />
-                        <img src="https://img.icons8.com/dotty/344/poll-topic.png" alt="" />
-                        <img src="https://img.icons8.com/ios/2x/happy.png" alt="" />
-                        <img src="https://img.icons8.com/pastel-glyph/2x/overtime.png" alt="" />
-                        <img src="https://img.icons8.com/ios/344/marker--v1.png" alt="" />
+                        <div className='media-img'>
+                            <img src="https://img.icons8.com/fluency-systems-regular/344/image.png" alt="" />
+                            <img src="https://img.icons8.com/ios-glyphs/2x/attach-gif.png" alt="" />
+                            <img src="https://img.icons8.com/dotty/344/poll-topic.png" alt="" />
+                            <img src="https://img.icons8.com/ios/2x/happy.png" alt="" />
+                            <img src="https://img.icons8.com/pastel-glyph/2x/overtime.png" alt="" />
+                            <img src="https://img.icons8.com/ios/344/marker--v1.png" alt="" />
+                        </div>
+                        <h3>Tweet</h3>
                     </div>
                 </div>
             </div>

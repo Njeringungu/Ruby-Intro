@@ -25,7 +25,14 @@
     flex-direction: column;
 }
 
-.media > img{
+.media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media-img > img{
     width: 25px;
     height: 25px;
 }
