@@ -10,9 +10,6 @@ import More from './components/More';
 import Home from './components/Home'; 
 import { Routes, Route } from 'react-router-dom';
 
-
-
-
 function App() {
   return (
     <div className="App">
@@ -27,8 +24,6 @@ function App() {
         <Route path="/Profile" element={<Profile />} />
         <Route path="/More" element={<More />} />
       </Routes>
-
-     
     </div>
   );
 }
