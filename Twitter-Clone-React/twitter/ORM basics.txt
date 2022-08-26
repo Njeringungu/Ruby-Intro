@@ -1,0 +1,11 @@
+- basics
+- why orm
+    - cut repetion
+    - organize our data
+- classes = tables
+- class instance = rows
+- we are lazy
+
+- create  a database
+- create a table(pluralise)
+    instanciate a nil id
